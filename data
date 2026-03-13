@@ -1,1 +1,77 @@
+Dataset Description
 
+This project uses the Brazilian E-commerce Public Dataset by Olist, which contains data about orders placed on the Olist marketplace between 2016–2018.
+
+The dataset represents a real e-commerce platform and includes information about:
+
+customer orders
+
+products and sellers
+
+delivery timelines
+
+customer reviews
+
+It allows analysis of the order fulfillment pipeline to identify delivery delays and operational bottlenecks.
+
+Data Source
+
+Source: Kaggle
+Dataset: Brazilian E-commerce Public Dataset by Olist
+
+Tables Used
+
+This project uses the following main tables:
+
+orders
+Contains order lifecycle timestamps.
+
+Key columns:
+
+order_id
+customer_id
+order_purchase_timestamp
+order_approved_at
+order_delivered_carrier_date
+order_delivered_customer_date
+order_status
+
+order_items
+Links orders to products and sellers.
+
+Key columns:
+
+order_id
+product_id
+seller_id
+price
+freight_value
+
+customers
+Contains customer location information.
+
+Key columns:
+
+customer_id
+customer_city
+customer_state
+
+products
+Contains product catalog information.
+
+Key columns:
+
+product_id
+product_category_name
+
+order_reviews
+Contains customer feedback for orders.
+
+Key columns:
+
+review_id
+order_id
+review_score
+Analytical Objective
+
+The goal of this project is to analyze the order fulfillment process and identify factors contributing to delivery delays, including seller performance, product category complexity, and regional logistics differences.
