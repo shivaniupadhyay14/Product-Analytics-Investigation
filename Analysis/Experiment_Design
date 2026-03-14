@@ -1,0 +1,140 @@
+Objective
+
+The objective of this experiment is to evaluate potential improvements to marketplace performance by addressing two key issues identified during the analysis:
+	1.	Long delivery times caused primarily by logistics transportation.
+	2.	Low customer retention, as most customers place only one order.
+
+The experiment will test whether operational and product improvements can improve delivery efficiency and increase repeat purchases.
+
+⸻
+
+Experiment 1: Logistics Improvement for Faster Delivery
+
+Problem
+
+Analysis of the order fulfillment pipeline shows that the delivery stage contributes the largest portion of total order fulfillment time. Average delivery time across the platform is approximately 12 days, while some remote regions experience delivery times exceeding 25 days.
+
+This suggests that logistics transportation is the primary operational bottleneck.
+
+⸻
+
+Hypothesis
+
+Introducing regional distribution centers or additional logistics partners in remote regions will reduce the average delivery time for orders delivered to those regions.
+
+⸻
+
+Experiment Design
+
+Two groups of orders will be created.
+
+Control Group
+Orders processed using the existing logistics network and current delivery routes.
+
+Test Group
+Orders routed through newly introduced regional warehouses or local logistics partners.
+
+The experiment will focus on orders delivered to geographically distant regions where delivery delays are currently highest.
+
+⸻
+
+Metrics
+
+Primary Metric
+Average delivery time between order purchase and delivery.
+
+Secondary Metrics
+Delivery time from seller shipment to customer delivery
+Percentage of orders delivered within expected delivery time
+Customer review score
+
+⸻
+
+Success Criteria
+
+The experiment will be considered successful if the test group shows a reduction in average delivery time of at least 10 percent compared to the control group.
+
+⸻
+
+Experiment Timeline
+
+Week 1–2
+Implement regional logistics routing for the test group.
+
+Week 3–6
+Run the experiment and collect delivery performance data.
+
+Week 7
+Analyze results and compare delivery performance between groups.
+
+⸻
+
+Experiment 2: Customer Retention Improvement
+
+Problem
+
+Customer purchase analysis indicates that most customers place only one order on the platform. This suggests that the marketplace has relatively low repeat purchase rates.
+
+Improving customer retention could increase customer lifetime value and reduce dependency on acquiring new customers.
+
+⸻
+
+Hypothesis
+
+Providing targeted incentives such as loyalty rewards or personalized discounts after a customer’s first purchase will increase the repeat purchase rate.
+
+⸻
+
+Experiment Design
+
+Customers will be divided into two groups after their first purchase.
+
+Control Group
+Customers receive no additional incentives after their first purchase.
+
+Test Group
+Customers receive a personalized discount or loyalty reward encouraging them to place another order.
+
+⸻
+
+Metrics
+
+Primary Metric
+Repeat purchase rate
+
+Secondary Metrics
+Average number of orders per customer
+Customer lifetime value
+Customer engagement rate
+
+⸻
+
+Success Criteria
+
+The experiment will be considered successful if the repeat purchase rate increases by at least 5–10 percent for customers in the test group.
+
+⸻
+
+Experiment Timeline
+
+Week 1
+Deploy promotional incentives for test group customers.
+
+Week 2–6
+Monitor repeat purchase behavior.
+
+Week 7
+Evaluate experiment results and measure impact on retention metrics.
+
+⸻
+
+Expected Impact
+
+If these experiments succeed, the company can achieve the following improvements:
+
+Reduced delivery times through improved logistics infrastructure.
+
+Higher customer retention through targeted engagement strategies.
+
+Improved customer satisfaction and long-term revenue growth.
+
