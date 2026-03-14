@@ -1,0 +1,121 @@
+Data Modeling and Schema Design
+
+Overview
+
+The dataset follows a relational structure where the orders table acts as the central fact table. Supporting tables provide additional information about customers, products, sellers, and reviews.
+
+This structure allows the analysis of order fulfillment performance, customer behavior, seller performance, and delivery efficiency.
+
+⸻
+
+Fact Table
+
+orders
+
+The orders table is the main transactional table in the dataset. Each row represents a single order placed on the marketplace.
+
+Key columns
+
+order_id
+customer_id
+order_status
+order_purchase_timestamp
+order_approved_at
+order_delivered_carrier_date
+order_delivered_customer_date
+
+This table records the lifecycle of an order from purchase to delivery.
+
+⸻
+
+Bridge Table
+
+order_items
+
+The order_items table connects orders with products and sellers. A single order may contain multiple products, so this table allows one-to-many relationships between orders and products.
+
+Key columns
+
+order_id
+product_id
+seller_id
+price
+freight_value
+
+This table enables analysis of seller performance and product category delivery performance.
+
+⸻
+
+Dimension Tables
+
+customers
+
+The customers table contains information about the buyers on the marketplace, including geographic location.
+
+Key columns
+
+customer_id
+customer_city
+customer_state
+
+This table allows regional analysis of delivery performance.
+
+⸻
+
+products
+
+The products table contains product catalog information.
+
+Key columns
+
+product_id
+product_category_name
+
+This table allows analysis of delivery performance by product category.
+
+⸻
+
+sellers
+
+The sellers table contains information about marketplace sellers.
+
+Key columns
+
+seller_id
+seller_city
+seller_state
+
+This table enables analysis of seller fulfillment performance.
+
+⸻
+
+order_reviews
+
+The order_reviews table contains customer feedback and review scores.
+
+Key columns
+
+review_id
+order_id
+review_score
+
+This table enables analysis of how delivery performance affects customer satisfaction.
+
+⸻
+
+Schema Relationships
+
+The dataset follows a star-like relational structure centered around the orders table.
+
+orders → order_items → products
+orders → order_items → sellers
+orders → customers
+orders → order_reviews
+
+This schema allows combining operational data, seller data, product data, and customer feedback to analyze the full order lifecycle.
+
+⸻
+
+Why This Data Model Works
+
+This data model allows analysts to study the full order lifecycle by connecting operational events with customer, seller, and product attributes. Using this relational structure makes it possible to analyze delivery performance, seller efficiency, regional logistics differences, and customer satisfaction.
