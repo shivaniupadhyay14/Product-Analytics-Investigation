@@ -1,1 +1,144 @@
+Dataset Analysis Insights
 
+Problem Statement
+
+The objective of this analysis is to investigate the order fulfillment pipeline of an e-commerce marketplace and identify operational bottlenecks affecting delivery performance.
+
+The analysis focuses on identifying delays across different stages of the order lifecycle, understanding seller performance, evaluating regional delivery differences, and examining how these factors impact overall system efficiency.
+
+⸻
+
+Key Findings
+
+Platform Growth and Marketplace Activity
+
+Order volume increased significantly during 2017, indicating strong marketplace growth and increasing adoption of the platform. Monthly order counts grew from only a few hundred orders in early months to several thousand orders per month, reflecting rapid scaling of the marketplace.
+
+This increase in demand highlights the importance of maintaining efficient operational processes as order volumes grow.
+
+⸻
+
+Average Delivery Performance
+
+The average delivery time across completed orders is approximately 12 days. This represents the average duration between order purchase and final delivery to the customer.
+
+While this delivery time is reasonable for a large geographically distributed country such as Brazil, significant variation exists across regions and sellers.
+
+⸻
+
+Order Fulfillment Pipeline Analysis
+
+The order lifecycle consists of several stages including approval, seller shipment, and final delivery. Analysis of stage durations shows that different stages contribute differently to the total fulfillment time.
+
+Average stage durations:
+
+Approval stage: approximately 10 hours
+Seller shipping stage: approximately 67 hours
+Delivery stage: approximately 223 hours
+
+The delivery stage accounts for the majority of total fulfillment time, making logistics and transportation the primary operational bottleneck.
+
+⸻
+
+Seller Shipping Performance
+
+Seller performance analysis shows variation in shipping times across sellers. Some sellers show significantly higher average shipping durations.
+
+However, many extreme values correspond to sellers with very low order counts, suggesting that these delays may be caused by isolated or inactive sellers rather than systemic operational issues.
+
+Overall, seller shipping contributes to variability but is not the primary driver of long delivery times.
+
+⸻
+
+Regional Delivery Differences
+
+Delivery performance varies significantly across Brazilian states.
+
+Examples include:
+
+RR: approximately 29 days average delivery time
+AP: approximately 27 days
+AM: approximately 26 days
+
+These regions are located in northern Brazil, which is geographically distant from major logistics centers. This suggests that geographic distance and infrastructure limitations play a major role in delivery delays.
+
+Regions closer to logistics hubs experience significantly faster deliveries.
+
+⸻
+
+Order Funnel Performance
+
+The order lifecycle shows very high completion rates, indicating strong operational efficiency.
+
+Total orders: 99,441
+Approved orders: 99,281
+Shipped orders: 97,658
+Delivered orders: 96,476
+
+Stage conversion rates:
+
+Approval rate: 99.84 percent
+Shipping rate: 98.37 percent
+Delivery rate: 98.79 percent
+
+These high conversion rates indicate that the platform processes orders efficiently and very few orders drop off during the fulfillment process.
+
+⸻
+
+Customer Purchase Behavior
+
+Customer purchase analysis indicates that most customers place only one order on the platform.
+
+Repeat purchases appear relatively low, suggesting that the marketplace may rely heavily on new customer acquisition rather than strong repeat purchasing behavior.
+
+This highlights a potential opportunity to improve customer retention and long-term engagement.
+
+⸻
+
+Root Cause Framework
+
+Based on the analysis, the main drivers of delivery delays can be summarized as follows:
+
+Primary driver: logistics and transportation time
+Secondary driver: seller fulfillment variability
+Additional factors: geographic distance and regional infrastructure
+
+The logistics delivery stage accounts for the largest portion of total order fulfillment time, particularly for customers located in geographically distant regions.
+
+⸻
+
+Business Recommendations
+
+Improve Logistics Network Efficiency
+
+Since the delivery stage contributes the largest portion of total fulfillment time, improving logistics infrastructure and delivery routing could significantly reduce overall delivery duration.
+
+Investing in additional distribution centers or optimizing delivery routes could improve delivery speed, especially for distant regions.
+
+⸻
+
+Monitor Seller Fulfillment Performance
+
+Although seller delays are not the primary driver of delivery time, monitoring sellers with unusually high shipping delays could help improve consistency in order processing.
+
+Implementing seller performance metrics or shipping service-level agreements could reduce variability.
+
+⸻
+
+Improve Regional Logistics Coverage
+
+Regions in northern Brazil show significantly longer delivery times. Expanding logistics coverage or partnering with regional carriers could improve delivery performance in these areas.
+
+⸻
+
+Enhance Customer Retention Strategies
+
+Customer behavior analysis suggests that most customers place only one order. Introducing loyalty programs, targeted promotions, or personalized recommendations could encourage repeat purchases and improve customer retention.
+
+⸻
+
+Develop Operational Performance Dashboards
+
+Creating dashboards that monitor delivery performance, seller shipping times, and regional logistics efficiency would allow the company to proactively identify operational bottlenecks and take corrective action.
+
+⸻
