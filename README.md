@@ -1,6 +1,6 @@
 # Order Fulfillment Bottleneck Analysis
 
-Project Overview
+## Project Overview
 
 This project analyzes operational performance in an e-commerce marketplace using the Brazilian E-commerce Public Dataset by Olist. The goal of the analysis is to identify bottlenecks in the order fulfillment pipeline and understand factors affecting delivery performance and customer experience.
 
@@ -8,7 +8,7 @@ The analysis focuses on delivery timelines, seller performance, regional logisti
 
 ⸻
 
-Dataset
+## Dataset
 
 Dataset Name
 Brazilian E-commerce Public Dataset by Olist
@@ -23,7 +23,7 @@ The dataset contains real marketplace transaction data including orders, product
 
 ⸻
 
-Business Problem
+## Business Problem
 
 E-commerce platforms rely on efficient order fulfillment to ensure a good customer experience. Delays in the fulfillment pipeline can lead to poor customer satisfaction and lower repeat purchases.
 
@@ -52,7 +52,7 @@ This structure allows analysis of order lifecycle events together with product, 
 
 ⸻
 
-Analysis Approach
+## Analysis Approach
 
 The project was conducted in multiple stages.
 	1.	Operational Metrics
@@ -68,7 +68,7 @@ Order status distribution
 
 The order lifecycle was analyzed to identify which stage contributes the most to fulfillment delays.
 
-Stages analyzed
+## Stages analyzed
 
 Order approval
 Seller shipping
@@ -77,7 +77,7 @@ Customer delivery
 
 Further analysis was conducted to identify drivers of delivery delays.
 
-Factors investigated
+## Factors investigated
 
 Seller shipping performance
 Product category delivery times
@@ -87,7 +87,7 @@ Customer review scores
 
 The order lifecycle was analyzed as a funnel to understand how efficiently orders move through the system.
 
-Stages examined
+## Stages examined
 
 Order placed
 Order approved
@@ -105,7 +105,7 @@ Customer order distribution
 
 ⸻
 
-Key Insights
+## Key Insights
 
 Marketplace Growth
 
@@ -133,7 +133,7 @@ Most customers place only one order, indicating potential opportunities to impro
 
 ⸻
 
-Business Recommendations
+## Business Recommendations
 
 Improve Logistics Network
 
@@ -157,7 +157,7 @@ Monitoring delivery performance, seller shipping times, and regional logistics p
 
 ⸻
 
-Tools Used
+## Tools Used
 
 SQL
 
@@ -167,7 +167,7 @@ GitHub
 
 ⸻
 
-Project Structure
+## Project Structure
 
 README.md
 
